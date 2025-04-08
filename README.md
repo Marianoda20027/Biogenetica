@@ -1,6 +1,3 @@
-¡Por supuesto! Aquí tienes una **estructura mejorada y organizada** para tu estrategia de migraciones con Liquibase, optimizada para claridad y escalabilidad:
-
-```markdown
 # Estrategia de Migraciones con Liquibase para E-Commerce
 
 ## 1. Estructura de Directorios
@@ -22,7 +19,7 @@ liquibase/
 ├── sql/                            # Scripts SQL complejos (opcional)
 └── config/                         # Configuraciones de Liquibase
     └── liquibase.properties
-
+```
 
 ### **Reglas para la Estructura**:
 - **`master.xml`**: Incluye todos los changelogs con `<include>` ordenados por prioridad.
