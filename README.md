@@ -22,7 +22,7 @@ liquibase/
 ├── sql/                            # Scripts SQL complejos (opcional)
 └── config/                         # Configuraciones de Liquibase
     └── liquibase.properties
-```
+
 
 ### **Reglas para la Estructura**:
 - **`master.xml`**: Incluye todos los changelogs con `<include>` ordenados por prioridad.
