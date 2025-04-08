@@ -157,12 +157,9 @@ changeLogFile: liquibase/changelog/master.xml
 3. ✅ ¿El nombre del archivo sigue el formato `YYYYMMDD_HHMMSS_nombre.xml`?
 4. ✅ ¿Se asignaron labels y contextos correctos?
 5. ✅ ¿Se verificó en un entorno de staging?
-```
+
 
 ### **Notas Finales**:
 - **Versionado Semántico**: Usa `v1.0`, `v2.1` en los directorios de releases.
 - **Ejecución Condicional**: Usa `context` para cambios específicos (ej: `context="prod"`).
 
---- 
-
-¿Necesitas ajustar algo en específico? ¡Estoy aquí para ayudarte! 🚀
